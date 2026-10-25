@@ -1,10 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite this repository and the associated manuscript when available."
+message: "If you use this software, please cite this archived release."
 title: "SAFE-LOOP: Freshness-Aware Network Admission Control"
 type: software
+
 authors:
   - family-names: Shakeel
     given-names: Ghufran
+    orcid: "https://orcid.org/0009-0006-3683-8405"
   - family-names: Tayyab
     given-names: Hammad
+
 repository-code: "https://github.com/ghufr7an/safe-loop-admission-control"
+url: "https://github.com/ghufr7an/safe-loop-admission-control"
+
+doi: "10.5281/zenodo.23651714"
+version: "v1.0.1"
+date-released: "2026-10-25"
+license: MIT
