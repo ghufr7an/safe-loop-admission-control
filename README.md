@@ -1,5 +1,5 @@
 # SAFE-LOOP: Freshness-Aware Network Admission Control
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23651714.svg)](https://doi.org/10.5281/zenodo.23651714)
 **An emulation-based evaluation of refresh-and-revalidate admission, in-process reservations, and Open vSwitch enforcement.**
 
 > **Research status:** Experimental prototype and supporting artifacts. Journal submission and peer-review status should be confirmed separately. This repository is **not** evidence of IEEE publication or production deployment.
