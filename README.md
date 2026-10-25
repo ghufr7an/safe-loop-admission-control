@@ -67,19 +67,31 @@ Research manuscript: **Ghufran Shakeel and Hammad Tayyab**. The public release a
 
 ## Citation
 
-The SAFE-LOOP v1.0.1 research software and experimental evidence are permanently archived on Zenodo.
+SAFE-LOOP v1.0.1, including its Python implementation and supporting experimental evidence, is permanently archived on Zenodo.
 
-**Software DOI:** https://doi.org/10.5281/zenodo.23651714
+**Version-specific DOI:** https://doi.org/10.5281/zenodo.23651714
 
-**DOI covering all versions:** https://doi.org/10.5281/zenodo.23651713
+**DOI for all versions:** https://doi.org/10.5281/zenodo.23651713
 
-**Recommended citation:**
+### Recommended citation (APA)
 
 Shakeel, G., & Tayyab, H. (2026). *SAFE-LOOP: Freshness-Aware Network Admission Control* (Version v1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23651714
 
-This DOI identifies the archived research software and supporting experimental artifacts. It does not represent peer-reviewed publication of the associated manuscript.
+### BibTeX
 
-A separate manuscript or preprint DOI will be added when available.
+```bibtex
+@software{shakeel_tayyab_safe_loop_2026,
+  author    = {Shakeel, Ghufran and Tayyab, Hammad},
+  title     = {SAFE-LOOP: Freshness-Aware Network Admission Control},
+  year      = {2026},
+  version   = {v1.0.1},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23651714},
+  url       = {https://doi.org/10.5281/zenodo.23651714}
+}
+```
+
+**Publication status:** This DOI identifies the archived research software and experimental artifacts. It does not represent peer-reviewed publication or acceptance of the associated research manuscript. A separate manuscript DOI may be added when available.
 
 ## License
 
