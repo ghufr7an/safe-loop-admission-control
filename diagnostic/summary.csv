@@ -1,0 +1,17 @@
+policy,scenario,trial,rate_mbps,capacity_mbps,reported_capacity_mbps,telemetry_age_s,candidate_admitted,decision_reason,decision_ms,background_tx_packets,background_rx_packets,background_loss_pct,background_payload_mbps,candidate_tx_packets,candidate_rx_packets,candidate_loss_pct,candidate_payload_mbps,aggregate_payload_mbps,ovs_drop_packets
+stale_capacity,fresh_overload,1,6,10,10,1,False,reported_capacity,0.00095,3125,3125,0.0,6.0,3125,0,100.0,0.0,6.0,3125
+freshness_guard,fresh_underload,1,4,10,10,1,True,freshness_guard,0.00117,2084,2084,0.0,4.0013,2084,2084,0.0,4.0013,8.0026,
+stale_capacity,stale_overload,1,6,10,14,30,True,reported_capacity,0.00163,3125,3007,3.776,5.7734,3125,3003,3.904,5.7658,11.5392,
+safe_loop,stale_underload,1,4,10,10,30,True,reserved,0.01926,2084,2084,0.0,4.0013,2084,2084,0.0,4.0013,8.0026,
+independent,stale_overload,1,6,10,14,30,True,uncoordinated,0.00057,3125,3012,3.616,5.783,3125,2997,4.096,5.7542,11.5372,
+freshness_guard,stale_underload,1,4,10,10,30,False,freshness_guard,0.00082,2084,2084,0.0,4.0013,2084,0,100.0,0.0,4.0013,2084
+safe_loop,stale_overload,1,6,10,14,30,False,insufficient_capacity,0.02104,3125,3125,0.0,6.0,3125,0,100.0,0.0,6.0,3125
+freshness_guard,stale_overload,1,6,10,14,30,False,freshness_guard,0.00106,3125,3125,0.0,6.0,3125,0,100.0,0.0,6.0,3125
+independent,fresh_overload,1,6,10,10,1,True,uncoordinated,0.00052,3125,2986,4.448,5.7331,3125,3023,3.264,5.8042,11.5373,
+safe_loop,fresh_underload,1,4,10,10,1,True,reserved,0.01185,2084,2084,0.0,4.0013,2084,2084,0.0,4.0013,8.0026,
+independent,fresh_underload,1,4,10,10,1,True,uncoordinated,0.0006,2084,2084,0.0,4.0013,2084,2084,0.0,4.0013,8.0026,
+freshness_guard,fresh_overload,1,6,10,10,1,False,freshness_guard,0.00125,3125,3125,0.0,6.0,3125,0,100.0,0.0,6.0,3125
+independent,stale_underload,1,4,10,10,30,True,uncoordinated,0.00063,2084,2084,0.0,4.0013,2084,2084,0.0,4.0013,8.0026,
+stale_capacity,fresh_underload,1,4,10,10,1,True,reported_capacity,0.00087,2084,2084,0.0,4.0013,2084,2084,0.0,4.0013,8.0026,
+safe_loop,fresh_overload,1,6,10,10,1,False,insufficient_capacity,0.01251,3125,3125,0.0,6.0,3125,0,100.0,0.0,6.0,3125
+stale_capacity,stale_underload,1,4,10,10,30,True,reported_capacity,0.00091,2084,2084,0.0,4.0013,2084,2084,0.0,4.0013,8.0026,

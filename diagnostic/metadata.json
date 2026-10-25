@@ -1,0 +1,7 @@
+{
+  "host": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "seconds": 5,
+  "capacity_mbps": 10,
+  "notes": "Mininet emulation; configured-capacity refresh; UDP application-layer receiver packet counts; candidate traffic always generated; OVS drop enforcement"
+}

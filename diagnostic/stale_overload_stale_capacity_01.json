@@ -1,0 +1,38 @@
+{
+  "metrics": {
+    "policy": "stale_capacity",
+    "scenario": "stale_overload",
+    "trial": 1,
+    "rate_mbps": 6,
+    "capacity_mbps": 10,
+    "reported_capacity_mbps": 14,
+    "telemetry_age_s": 30,
+    "candidate_admitted": true,
+    "decision_reason": "reported_capacity",
+    "decision_ms": 0.00163,
+    "background_tx_packets": 3125,
+    "background_rx_packets": 3007,
+    "background_loss_pct": 3.776,
+    "background_payload_mbps": 5.7734,
+    "candidate_tx_packets": 3125,
+    "candidate_rx_packets": 3003,
+    "candidate_loss_pct": 3.904,
+    "candidate_payload_mbps": 5.7658,
+    "aggregate_payload_mbps": 11.5392,
+    "ovs_drop_packets": null
+  },
+  "receiver_reports": {
+    "background": {
+      "packets_received": 3007,
+      "payload_bytes_received": 3608400,
+      "window_seconds": 7.0,
+      "last_packet_elapsed_s": 6.496184238999831
+    },
+    "candidate": {
+      "packets_received": 3003,
+      "payload_bytes_received": 3603600,
+      "window_seconds": 7.0,
+      "last_packet_elapsed_s": 6.496482518999983
+    }
+  }
+}
